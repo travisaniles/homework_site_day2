@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+    background-color: #236863;
+     font-family: 'Roboto', sans-serif;
+}
+
+.welcome {
+    height: 550px;
+    font-size: 60px;
+    text-align: left;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+    
+}
+.spacebar-top {
+    height: 75px;
+    border-bottom: solid;
+    background-color: #FF6F00;
+    border-color: #553F2E;
+}
+.spacebar-bottom {
+    height: 75px;
+    border-top: solid;
+    background-color: #FF6F00;
+    border-color: #553F2E;
+}
+.funyet {
+    height: 300px;
+    font-size: 45px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #d9d9d9;
+    background-image:url(http://i.imgur.com/50NA7vr.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    padding: 25px;
+}
+.close {
+    height: 550px;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.close img {
+    postion: fixed;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+@import "compass/css3";
+
+span {
+	font-family: monospace;
+	font-size: 2em;
+}
+span:after {
+	content:"_";
+	opacity: 0;
+	animation: cursor 1s infinite;
+}
+@keyframes cursor {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+/* styling */
+ /*html {*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*background: radial-gradient(circle, #fff 0%, #aaa 100%) no-repeat;*/
+	/*overflow-x: hidden;*/
+	/*overflow-y: hidden;*/
+}
+body {
+	text-align: center;
+	display: table;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#wrap {
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: middle;
+}
+h2 {
+    font-size: 35px;
+}
